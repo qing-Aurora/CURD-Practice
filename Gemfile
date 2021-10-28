@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.6.6'
+ruby '>=2.6.6'
 
 gem 'activerecord', '4.2.11'
 gem 'byebug'
@@ -10,4 +10,5 @@ gem 'rspec', '~> 3.0'
 # re-generating the fake data WILL BREAK THE RSPEC TESTS.
 # gem 'faker'
 gem 'guard-rspec'
-
+gem 'bigdecimal','1.3.5'
+gem 'irb'
